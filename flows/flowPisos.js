@@ -1,6 +1,7 @@
 const { addKeyword, EVENTS, flowDynamic, endFlow, gotoFlow } = require('@bot-whatsapp/bot')
 const { converText } = require('../funciones/convert-text.js');
 const { sepParrafos } = require('../funciones/sep-parafos.js');
+const { flowAula } = require('./flowAula.js')
 
 let codigo;
 let apiData = null;
@@ -366,5 +367,6 @@ const flowPiso3 = addKeyword('3')
             }
         }
     )
+
 
 module.exports = { flowPiso1, flowPiso2, flowPiso3 };
