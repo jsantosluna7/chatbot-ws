@@ -4,35 +4,12 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock');
 const { delay } = require('@whiskeysockets/baileys');
+const { converText } = require('./funciones/convert-text.js');
+const { sepParrafos } = require('./funciones/sep-parafos.js');
 const { flowPiso1, flowPiso2, flowPiso3 } = require('./flows/flowPisos.js')
 
 //Agregamos la variable del aula de entrada del usuario
 let aula;
-
-
-function converText(txt){
-    // Convertir a minúsculas y reemplazar tildes
-    const textoNormalizado = txt
-        .toLowerCase()
-        .normalize("NFD") // Descompone los caracteres con tilde
-        .replace(/[\u0300-\u036f]/g, ""); // Elimina los caracteres de acento
-
-    // Reemplazar la ñ por n
-    const textoSinEspeciales = textoNormalizado.replace(/ñ/g, 'n');
-
-    // Reemplazar espacios por guiones
-    return textoSinEspeciales.replace(/\s+/g, '-');
-}
-
-function sepParrafos(texto) {
-    // Usar regex para separar por puntos seguidos de espacio o final de línea
-    const parrafos = texto.split(/(?<=\.)\s/);
-
-    // Unir los párrafos con un salto de línea y espacio adicional
-    const resultado = parrafos.join('\n\n');
-
-    return resultado;
-}
 
 let apiData = null;
 

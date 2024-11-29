@@ -1,6 +1,6 @@
 const { addKeyword, EVENTS, flowDynamic, endFlow, gotoFlow } = require('@bot-whatsapp/bot')
 const { converText } = require('../funciones/convert-text.js');
-const { sepParrafos } = require('../funciones/sep-parafos.js')
+const { sepParrafos } = require('../funciones/sep-parafos.js');
 
 let codigo;
 let apiData = null;
