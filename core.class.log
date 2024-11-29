@@ -2,10 +2,10 @@
   key: {
     remoteJid: '18097770610@s.whatsapp.net',
     fromMe: false,
-    id: '3A27F230C437B5BD336C',
+    id: '3A4D181C49415FBB2E2A',
     participant: undefined
   },
-  messageTimestamp: 1732776938,
+  messageTimestamp: 1732850865,
   pushName: 'Jesus Santos',
   broadcast: false,
   message: Message {
@@ -20,26 +20,26 @@
   from: '18097770610'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5aac9e2c-29aa-47fd-8513-8c559e56fda5',
-  keyword: 'key_8df9411d-6661-4886-8405-226dd1262695',
+  ref: 'ans_44e1beb1-2579-4557-b503-102515566625',
+  keyword: 'key_2868a441-2686-498d-8b9d-3f28a6aca4d0',
   answer: 'Bienvenido/a al CIDIL 👋',
   options: {
     media: null,
     buttons: [],
     capture: false,
     child: null,
-    delay: 0,
+    delay: 2000,
     idle: null,
     ref: null,
     nested: [],
     keyword: {},
     callback: false
   },
-  refSerialize: 'b8ed0d05433f3916b9303b5be30b1a8a'
+  refSerialize: 'eaa5c5bfb2de9e4ea8113343240cf06e'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_9bd494f6-29e0-4fbc-9793-0ea7f9a96c12',
-  keyword: 'ans_5aac9e2c-29aa-47fd-8513-8c559e56fda5',
+  ref: 'ans_cbc13a37-1f48-43b0-8722-8c38ee76389e',
+  keyword: 'ans_44e1beb1-2579-4557-b503-102515566625',
   answer: '¿Cómo quieres iniciar?\n' +
     '\n' +
     '*Para iniciar, escribe la palabra clave.*\n' +
@@ -59,16 +59,16 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '472ef69866837fc53029c31d85abd693'
+  refSerialize: 'c7e37188686315e40317011df4632db3'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '18097770610@s.whatsapp.net',
     fromMe: false,
-    id: '3A6D04A6FC3B1C6FB8F7',
+    id: '3A732616C59855CAA022',
     participant: undefined
   },
-  messageTimestamp: 1732776945,
+  messageTimestamp: 1732850875,
   pushName: 'Jesus Santos',
   broadcast: false,
   message: Message {
@@ -83,8 +83,8 @@
   from: '18097770610'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_68c8fd78-96fd-4cec-a4e7-29e376775490',
-  keyword: 'key_c623c570-8a44-4f50-88ae-6e1f628ecbd5',
+  ref: 'ans_742e4164-17bb-4ee6-ab36-40493076899c',
+  keyword: 'key_0a5fc791-f801-46ad-8736-5b5421f792d1',
   answer: 'Dime el nombre del aula que deseas buscar. 🔍\n' +
     '\n' +
     'O escriba *cancelar* para terminar la solicitud. 🚫',
@@ -100,26 +100,414 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'fb7943e165c8690c196963f8703f89a7'
+  refSerialize: '88f981c3f9fb04d6d6621892b7badc18'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '18097770610@s.whatsapp.net',
     fromMe: false,
-    id: '3A429F47B788B5AC6D69',
+    id: '3AB5C1B132F579EBDA8B',
     participant: undefined
   },
-  messageTimestamp: 1732776948,
+  messageTimestamp: 1732850879,
   pushName: 'Jesus Santos',
   broadcast: false,
   message: Message {
-    conversation: 'Mecánica aplicada',
+    conversation: 'Cancelar',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'Mecánica aplicada',
+  body: 'Cancelar',
+  from: '18097770610'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '18097770610@s.whatsapp.net',
+    fromMe: false,
+    id: '3A453D8C19A6D2B57BDB',
+    participant: undefined
+  },
+  messageTimestamp: 1732850893,
+  pushName: 'Jesus Santos',
+  broadcast: false,
+  message: Message {
+    conversation: 'Aula',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Aula',
+  from: '18097770610'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_742e4164-17bb-4ee6-ab36-40493076899c',
+  keyword: 'key_0a5fc791-f801-46ad-8736-5b5421f792d1',
+  answer: 'Dime el nombre del aula que deseas buscar. 🔍\n' +
+    '\n' +
+    'O escriba *cancelar* para terminar la solicitud. 🚫',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '88f981c3f9fb04d6d6621892b7badc18'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '18097770610@s.whatsapp.net',
+    fromMe: false,
+    id: '3A7FF75C9216780BBCF1',
+    participant: undefined
+  },
+  messageTimestamp: 1732850898,
+  pushName: 'Jesus Santos',
+  broadcast: false,
+  message: Message {
+    conversation: 'Cancelar',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Cancelar',
+  from: '18097770610'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '18097770610@s.whatsapp.net',
+    fromMe: false,
+    id: '3AAAEC7CC9E35A279580',
+    participant: undefined
+  },
+  messageTimestamp: 1732850924,
+  pushName: 'Jesus Santos',
+  broadcast: false,
+  message: Message {
+    conversation: 'Aula',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Aula',
+  from: '18097770610'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_742e4164-17bb-4ee6-ab36-40493076899c',
+  keyword: 'key_0a5fc791-f801-46ad-8736-5b5421f792d1',
+  answer: 'Dime el nombre del aula que deseas buscar. 🔍\n' +
+    '\n' +
+    'O escriba *cancelar* para terminar la solicitud. 🚫',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '88f981c3f9fb04d6d6621892b7badc18'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '18097770610@s.whatsapp.net',
+    fromMe: false,
+    id: '3A7BBD0ED8A2E06250F5',
+    participant: undefined
+  },
+  messageTimestamp: 1732850930,
+  pushName: 'Jesus Santos',
+  broadcast: false,
+  message: Message {
+    conversation: 'Desarrollo de software',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Desarrollo de software',
+  from: '18097770610'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '18097770610@s.whatsapp.net',
+    fromMe: false,
+    id: '3A87186C3B7C8419EAD6',
+    participant: undefined
+  },
+  messageTimestamp: 1732850972,
+  pushName: 'Jesus Santos',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '18097770610'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_44e1beb1-2579-4557-b503-102515566625',
+  keyword: 'key_2868a441-2686-498d-8b9d-3f28a6aca4d0',
+  answer: 'Bienvenido/a al CIDIL 👋',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 2000,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'eaa5c5bfb2de9e4ea8113343240cf06e'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cbc13a37-1f48-43b0-8722-8c38ee76389e',
+  keyword: 'ans_44e1beb1-2579-4557-b503-102515566625',
+  answer: '¿Cómo quieres iniciar?\n' +
+    '\n' +
+    '*Para iniciar, escribe la palabra clave.*\n' +
+    '\n' +
+    '👉 *aula* *->* Busca por el nombre del aula.\n' +
+    '\n' +
+    '👉 *codigo* *->* Busca por el codigo del aula.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'c7e37188686315e40317011df4632db3'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '18097770610@s.whatsapp.net',
+    fromMe: false,
+    id: '3A2973338A5462D91C97',
+    participant: undefined
+  },
+  messageTimestamp: 1732850979,
+  pushName: 'Jesus Santos',
+  broadcast: false,
+  message: Message {
+    conversation: 'Código',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Código',
+  from: '18097770610'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '18097770610@s.whatsapp.net',
+    fromMe: false,
+    id: '3A051CFBCFABFBC23A01',
+    participant: undefined
+  },
+  messageTimestamp: 1732850996,
+  pushName: 'Jesus Santos',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '18097770610'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_44e1beb1-2579-4557-b503-102515566625',
+  keyword: 'key_2868a441-2686-498d-8b9d-3f28a6aca4d0',
+  answer: 'Bienvenido/a al CIDIL 👋',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 2000,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'eaa5c5bfb2de9e4ea8113343240cf06e'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cbc13a37-1f48-43b0-8722-8c38ee76389e',
+  keyword: 'ans_44e1beb1-2579-4557-b503-102515566625',
+  answer: '¿Cómo quieres iniciar?\n' +
+    '\n' +
+    '*Para iniciar, escribe la palabra clave.*\n' +
+    '\n' +
+    '👉 *aula* *->* Busca por el nombre del aula.\n' +
+    '\n' +
+    '👉 *codigo* *->* Busca por el codigo del aula.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'c7e37188686315e40317011df4632db3'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '18097770610@s.whatsapp.net',
+    fromMe: false,
+    id: '3AC7E2B81C5819F99340',
+    participant: undefined
+  },
+  messageTimestamp: 1732851006,
+  pushName: 'Jesus Santos',
+  broadcast: false,
+  message: Message {
+    conversation: 'Codigo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Codigo',
+  from: '18097770610'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_6e78cc65-d909-42dc-a694-326cd30f708c',
+  keyword: 'key_a0fb66bc-13d0-4555-b074-5e19a513d4ce',
+  answer: 'Introduce el piso donde está en aula. 🔍\n' +
+    '\n' +
+    '*1*\n' +
+    '\n' +
+    '*2*\n' +
+    '\n' +
+    '*3*\n' +
+    '\n' +
+    'O escriba *cancelar* para terminar la solicitud. 🚫',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'dd018bace5602da902125ea31c784ea9'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '18097770610@s.whatsapp.net',
+    fromMe: false,
+    id: '3A468AFBF8EA198F63E5',
+    participant: undefined
+  },
+  messageTimestamp: 1732851012,
+  pushName: 'Jesus Santos',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '2',
+  from: '18097770610'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4b70fdc5-b929-4534-afa8-e4ef5fb68e98',
+  keyword: 'key_81d3c7f6-531c-42a7-b8e2-292e0960cccf',
+  answer: 'Elegiste el piso #2. Indicame el código del aula a la que te quieres dirigir 🤔\n' +
+    '\n' +
+    '*2A --> Microelectrónica*\n' +
+    '\n' +
+    '*2B --> Manufactura automatizada*\n' +
+    '\n' +
+    '*2C --> Sistemas de Comunicaciones*\n' +
+    '\n' +
+    '*2D --> Multimedia*\n' +
+    '\n' +
+    'O escriba *cancelar* para terminar la solicitud. 🚫',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '001befa60fa1277fd9956b4063ed598c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '18097770610@s.whatsapp.net',
+    fromMe: false,
+    id: '3A4248C10E195DD41FC7',
+    participant: undefined
+  },
+  messageTimestamp: 1732851021,
+  pushName: 'Jesus Santos',
+  broadcast: false,
+  message: Message {
+    conversation: '2a',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '2a',
   from: '18097770610'
 }

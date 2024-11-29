@@ -4,6 +4,7 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock');
 const { delay } = require('@whiskeysockets/baileys');
+const { flowPiso1, flowPiso2, flowPiso3 } = require('./flows/flowPisos.js')
 
 //Agregamos la variable del aula de entrada del usuario
 let aula;
@@ -99,12 +100,19 @@ const flowAula = addKeyword('aula')
                                 ]
                             )
     
-                            await flowDynamic([{}]); //Intoducir audios.
+                            await flowDynamic(
+                                [
+                                    {
+                                        body: 'audio',
+                                        media: apiData.audio
+                                    }
+                                ]
+                            ); //Intoducir audios.
     
                             return endFlow(sepParrafos('¡Gracias por utilizar el chatbot!. Vuelva pronto 👋'))
                         }
                         obtenerAulas();
-                    }, 6500)
+                    }, 9500)
                 }
                 else{
                     await flowDynamic(
@@ -141,26 +149,18 @@ const flowAula = addKeyword('aula')
                         }
                     ]
                 )
-                await flowDynamic('⏳')
+                await flowDynamic(
+                    [
+                        {
+                            delay: 1000,
+                            body: '⏳'
+                        }
+                    ]
+                )
             }
         }
     )
 
-
-const flowPiso1 = addKeyword('1')
-    .addAnswer(
-
-    )
-
-const flowPiso2 = addKeyword('2')
-    .addAnswer(
-        
-    )
-
-const flowPiso3 = addKeyword('3')
-    .addAnswer(
-        
-    )
 
 const flowCodigo = addKeyword('codigo')
     .addAnswer(
@@ -182,7 +182,7 @@ const flowCodigo = addKeyword('codigo')
 
 
 const flowPrincipal = addKeyword(EVENTS.WELCOME)
-    .addAnswer('Bienvenido/a al CIDIL 👋') //Agregarle un delay.
+    .addAnswer('Bienvenido/a al CIDIL 👋', {delay: 2000}) //Agregarle un delay.
     .addAnswer(
         [
             '¿Cómo quieres iniciar?',
