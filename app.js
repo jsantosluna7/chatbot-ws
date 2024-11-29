@@ -139,7 +139,7 @@ const flowAula = addKeyword('aula')
     )
 
 
-const flowCodigo = addKeyword('codigo')
+const flowCodigo = addKeyword(['codigo', 'código'])
     .addAnswer(
         [
             'Introduce el piso donde está en aula. 🔍',
